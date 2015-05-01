@@ -13,8 +13,8 @@ describe("succ: 配列の長さを1増やす関数", function(){
       expect(succ([1, 2, 3, 4, 5])).to.be.an("array");
     });
     it("返り値の長さは、引数のそれよりも1大きい", function(){
-      expect(succ([1, 2, 3, 4, 5])).to.be(6);
-      expect(succ([1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12])).to.be(13);
+      expect(succ([1, 2, 3, 4, 5]).length).to.be(6);
+      expect(succ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]).length).to.be(13);
     });
   });
 });
