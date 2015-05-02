@@ -15,5 +15,5 @@ describe("prev: 配列の長さを1減らす関数", function(){
     it("返り値の長さが0", function(){
       expect(prev([]).length).to.be(0);
     });
-  })
-})
+  });
+});
