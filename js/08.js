@@ -1,31 +1,14 @@
-function zero(){
-  return [];
+function n (a){
+   return [];
 }
 
-function succ(a){
-  a.push(true);
-  return a;
+function n (a){
+   return new Array(a);
 }
 
 function n(){
-  var a = zero();
-
-
-  while(a.length < 0){
-    a = succ(a);
-
-  }
-
-
-
-  while(a.length == 12345){
-    a = succ(a);
-
-  }
-
-
-
-  return a;
-
-
+    if(a<0)
+         return null;
+    else.
+         return new Array(Number(a))
 }
